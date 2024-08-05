@@ -1,0 +1,38 @@
+# Image Segmentation
+torch
+torchvision
+tensorflow
+detectron2  # For Mask R-CNN, you may need to install this from a specific source
+transformers  # For advanced model architectures
+opencv-python
+Pillow
+
+# Object Extraction and Storage
+numpy
+opencv-python
+Pillow
+sqlite3  # This is part of the Python Standard Library, so no need to install separately
+
+# Object Identification
+yolov5  # If using YOLOv5, requires specific installation steps
+transformers  # For models like CLIP
+
+# Text/Data Extraction from Objects
+pytesseract
+easyocr
+
+# Summarize Object Attributes
+transformers  # For NLP models
+sumy  # For summarization algorithms
+
+# Data Mapping
+jsonschema
+sqlalchemy  # For database schema and mapping
+
+# Output Generation
+matplotlib
+pandas
+
+# Utility Libraries
+scikit-learn
+seaborn
